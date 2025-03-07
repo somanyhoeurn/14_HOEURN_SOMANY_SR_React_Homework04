@@ -107,6 +107,7 @@ export default function AddNewProjectComponent({setProjects}) {
                         type="text"
                         name="projectName"
                         id="projectName"
+                        value={projectName}
                         className={`bg-gray-50 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 ${
                           errors.projectName ? 'border-red-600 text-red-600' : 'border-gray-300'
                         }`}
